@@ -12,11 +12,9 @@ padding: 0;
 }
 
 hr{
-    margin: 0;
-    padding: 0;
+    margin: 0 0 0 0;
     height: 3px;
-    background-color: black;
-    border: black;
+    color: black;
 }
 
 .about{
@@ -27,7 +25,7 @@ header{
     width: 100%;
     height: 6%;
     padding: 1%;
-    background-color: #E6A7A7;
+    background-color: #E6B3B3;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,24 +50,11 @@ header{
 .h_link{
     padding-left: 3%;
     display: flex;
+    pudding: 10% 0 10% 0;
 }
 
 .h2_links{
-    padding: 3%;
-    display: flex;
-}
-
-.ff{
-    border: solid black 1px;
-    border-radius: 40px;
-    display: flex;
-}
-
-.ff1{
-    padding: 10% 13% 0 0;
-    font-size: 1.3em;
-    color: white;
-    display: inline-block;
+    padding: 20% 3%;
 }
 
 .link{
@@ -84,7 +69,7 @@ header{
     /* padding-top: 100px; */
     width: 100%;
     height: 700px;
-    background-image: url(foto/imagebg.jpg);
+    background-image: url(foto/imagebg.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -95,7 +80,7 @@ header{
 }
 
 .banner_hr{
-    background-color: #E6A7A7;
+    background-color: #E6B3B3;
     border-radius: 60px;
     padding: 1.2% 5%;
     font-size: 2em;
@@ -110,7 +95,7 @@ header{
 
 /* основа */
 .main{
-    height: 2307px;
+    height: 2168px;
     width: 100%;
     background-image: url(foto/bg.png);
     background-color: yellow;
@@ -121,17 +106,16 @@ header{
     padding: 8%;
     font-family: "Island Moments";
     font-size: 4em;
-    margin: 5%;
 }
 
-  /* каталог */
+/* каталог */
 .catalog{
-    padding: 0 20%;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
     align-items: center;
-    
+    justify-content: center;
+    margin: 7% 7% 0 7%;
   }
   .ca{
     width: 210px;
@@ -163,7 +147,7 @@ header{
     background-color: #E6A7A7;
 }
   }
-  /* коментарі */
+  /* каталог */
 
 .comm{
     padding: 1.5% 0 10% 0;
